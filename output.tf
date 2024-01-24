@@ -1,3 +1,3 @@
-output "rg-tfe" {
-    value = azurerm_resource_group.example.location
+output "subnet_info" {
+  value = azurerm_subnet.example
 }
